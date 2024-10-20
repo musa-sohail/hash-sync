@@ -110,7 +110,7 @@ const Contact = () => {
               ></textarea>
             </div>
             <button type="submit" className="text-white bg-[#00848c] border-0 py-2 px-6 focus:outline-none hover:bg-opacity-80 rounded text-lg">Send</button>
-            <p className="text-xs text-gray-500 mt-3">We’ll get back to you as soon as possible.</p>
+            <p className="text-xs text-gray-500 mt-3">We will get back to you as soon as possible.</p>
           </form>
         </div>
       </section>

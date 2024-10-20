@@ -31,7 +31,7 @@ const About = () => {
       name: 'Muhammad Musa',
       role: 'Web Developer',
       icon: <FaMale className="w-16 h-16 text-[#00848c] rounded-full bg-gray-200 p-2" />, // Male icon for Web Developer
-      description: 'Muhammad specializes in web development, bringing our clients’ visions to life through elegant and functional code.',
+      description: 'Muhammad specializes in web development, bringing our clients visions to life through elegant and functional code.',
     }
   ];
 
@@ -61,7 +61,7 @@ const About = () => {
               <span className="ml-auto text-gray-900">100+</span>
             </div>
             <div className="text-center">
-              <span className="title-font font-medium text-center text-2xl text-gray-900">Let’s Work Together!</span>
+              <span className="title-font font-medium text-center text-2xl text-gray-900">Let us Work Together!</span>
             </div>
           </div>
           <img 

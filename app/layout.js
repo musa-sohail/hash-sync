@@ -24,11 +24,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        />
       </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased font-roboto`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased font-roboto`}>
         <Navbar /> {/* Add Header/Navbar */}
         <main>{children}</main> {/* Main content area */}
         <Footer /> {/* Add Footer */}

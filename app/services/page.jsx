@@ -31,7 +31,7 @@ const ServicesPage = () => {
               Mobile App Development for Native and Cross-Platforms
             </h2>
             <p className="mb-6 font-light text-gray-500 md:text-lg">
-              At Hashsync, we specialize in mobile app development, creating innovative applications for both native and cross-platform environments. Whether you're targeting iOS, Android, or both, we use cutting-edge technologies like Flutter and React Native to ensure a seamless user experience across all devices. Our developers focus on delivering high-performance apps that are scalable, secure, and built to meet your specific business requirements. From ideation to deployment, we manage the entire development lifecycle, ensuring that your app is feature-rich, user-friendly, and designed to meet the demands of today's fast-paced digital world.
+              At Hashsync, we specialize in mobile app development, creating innovative applications for both native and cross-platform environments. Whether you are targeting iOS, Android, or both, we use cutting-edge technologies like Flutter and React Native to ensure a seamless user experience across all devices. Our developers focus on delivering high-performance apps that are scalable, secure, and built to meet your specific business requirements. From ideation to deployment, we manage the entire development lifecycle, ensuring that your app is feature-rich, user-friendly, and designed to meet the demands of todays fast-paced digital world.
             </p>
           </div>
         </div>
@@ -45,7 +45,7 @@ const ServicesPage = () => {
               Web Development: From Design to Code
             </h2>
             <p className="mb-6 font-light text-gray-500 md:text-lg">
-              Our expertise in web development spans across multiple frameworks and technologies. We provide custom website development services that are tailored to your specific needs, whether you're looking to build a complex eCommerce platform, a sleek corporate website, or a content-rich portal. We transform your design ideas into fully functional websites, ensuring that the user experience is smooth, responsive, and engaging. Using the latest development practices, including HTML5, CSS3, JavaScript, and various backend technologies, we create websites that are not only visually stunning but also robust in performance, highly secure, and optimized for search engines.
+              Our expertise in web development spans across multiple frameworks and technologies. We provide custom website development services that are tailored to your specific needs, whether you are looking to build a complex eCommerce platform, a sleek corporate website, or a content-rich portal. We transform your design ideas into fully functional websites, ensuring that the user experience is smooth, responsive, and engaging. Using the latest development practices, including HTML5, CSS3, JavaScript, and various backend technologies, we create websites that are not only visually stunning but also robust in performance, highly secure, and optimized for search engines.
             </p>
           </div>
           <img

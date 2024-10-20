@@ -5,7 +5,7 @@ const testimonials = [
   {
     name: 'Sophia Davis',
     position: 'Business Owner at Tech Innovations',
-    message: 'Hashsync’s team developed a custom website for us, and the results have been phenomenal! Their attention to detail and commitment to delivering high-quality work is unmatched.',
+    message: 'Hashsync team developed a custom website for us, and the results have been phenomenal! Their attention to detail and commitment to delivering high-quality work is unmatched.',
     icon: GiBookshelf,
   },
   {
@@ -23,7 +23,7 @@ const testimonials = [
   {
     name: 'Liam Johnson',
     position: 'Founder of Fintech Startups',
-    message: 'Hashsync’s cross-platform app development services helped us save time and resources while maintaining excellent performance across devices.',
+    message: 'Hashsync cross-platform app development services helped us save time and resources while maintaining excellent performance across devices.',
     icon: GiEarthAmerica,
   },
   {
@@ -92,7 +92,7 @@ export default function Home() {
         What Our CEO says
       </h2>
       <p className="mt-4">
-        "At Hashsync, we believe in the power of technology to transform businesses. Our goal is to provide innovative software solutions that help companies succeed in today’s fast-paced digital world. From mobile apps to complex websites, our dedicated team is here to bring your vision to life. Let us help you navigate the ever-changing tech landscape with confidence."
+        At Hashsync, we believe in the power of technology to transform businesses. Our goal is to provide innovative software solutions that help companies succeed in todays fast-paced digital world. From mobile apps to complex websites, our dedicated team is here to bring your vision to life. Let us help you navigate the ever-changing tech landscape with confidence.
         <br />
         <br />
         - Aaziq Ali Shah, CEO of Hashsync
