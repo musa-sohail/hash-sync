@@ -5,34 +5,41 @@ const testimonials = [
   {
     name: "Steve Ziskind",
     position: "CEO at CXR",
-    text: "Hashsync delivered an outstanding mobile app for our business. Their team understood our needs perfectly and provided us with a solution that exceeded our expectations."
+    message: "Hashsync delivered an outstanding mobile app for our business. Their team understood our needs perfectly and provided us with a solution that exceeded our expectations.",
+    icon: GiMoneyStack
   },
   {
     name: "Sarah Johnson",
     position: "Marketing Manager at Green Solutions",
-    text: "We had a great experience working with Hashsync. They were professional and responsive throughout the entire project. Our new website looks fantastic and functions flawlessly."
+    message: "We had a great experience working with Hashsync. They were professional and responsive throughout the entire project. Our new website looks fantastic and functions flawlessly.",
+    icon: GiEarthAmerica
   },
   {
     name: "Fatima Ali",
     position: "Owner of 360 Marketing PVT limited",
-    text: "I appreciate the dedication of the Hashsync team. They helped me set up my online store smoothly. Their support was invaluable, and I cannot thank them enough."
+    message: "I appreciate the dedication of the Hashsync team. They helped me set up my online store smoothly. Their support was invaluable, and I cannot thank them enough.",
+    icon: GiAbacus
   },
   {
     name: "Michael Smith",
     position: "Freelance Developer",
-    text: "Hashsync provided excellent web development services. Their attention to detail and innovative approach made my project a success. I would recommend them to anyone looking for quality work."
+    message: "Hashsync provided excellent web development services. Their attention to detail and innovative approach made my project a success. I would recommend them to anyone looking for quality work.",
+    icon: GiBookshelf
   },
   {
     name: "Aisha Malik",
     position: "Director at Softix Solutions",
-    text: "The team at Hashsync was amazing. They guided us through the entire process of creating our app, and their insights were invaluable. We are thrilled with the final product."
+    message: "The team at Hashsync was amazing. They guided us through the entire process of creating our app, and their insights were invaluable. We are thrilled with the final product.",
+    icon: GiHealthIncrease
   },
   {
     name: "David Brown",
     position: "Owner of Local Cafe",
-    text: "Working with Hashsync was a breeze. They took the time to understand my requirements and delivered a stunning website for my café. I have received many compliments from my customers."
+    message: "Working with Hashsync was a breeze. They took the time to understand my requirements and delivered a stunning website for my café. I have received many compliments from my customers.",
+    icon: GiCalendar
   }
 ];
+
 
 
 export default function Home() {
