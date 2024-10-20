@@ -8,6 +8,7 @@ import Image from "next/image";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [hasShadow, setHasShadow] = useState(false);
+  const [isClosing, setIsClosing] = useState(false);
 
   const navLinks = [
     { href: "/", label: "Home" },
@@ -30,6 +31,14 @@ const Navbar = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  const closeMenu = () => {
+    setIsClosing(true);
+    setTimeout(() => {
+      setIsMenuOpen(false);
+      setIsClosing(false);
+    }, 300); // Match this duration with your CSS transition
+  };
 
   return (
     <>
@@ -60,7 +69,7 @@ const Navbar = () => {
           </ul>
           <div
             className="hidden max-lg:block cursor-pointer"
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            onClick={() => setIsMenuOpen((prev) => !prev)} // Toggle the menu state
           >
             <RxHamburgerMenu className="text-4xl text-dark" />
           </div>
@@ -68,11 +77,13 @@ const Navbar = () => {
       </header>
 
       {isMenuOpen && (
-        <div className="fixed top-0 right-0 left-0 bottom-0 bg-white z-50 flex items-center justify-center">
+        <div
+          className={`fixed top-0 right-0 left-0 bottom-0 bg-white z-50 flex items-center justify-center menu ${isClosing ? 'menu-hidden' : 'menu-visible'}`}
+        >
           <nav className="lg:hidden">
             <div
               className="fixed right-0 px-8 py-4 cursor-pointer"
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              onClick={closeMenu} // Use the new closeMenu function
             >
               <AiOutlineClose className="text-4xl" style={{ color: "#00848c" }} />
             </div>
@@ -82,6 +93,7 @@ const Navbar = () => {
                   <Link
                     href={item.href}
                     className="font-montserrat leading-normal text-lg text-slate-gray hover:text-[#00848c]"
+                    onClick={closeMenu} // Close the menu when a link is clicked
                   >
                     {item.label}
                   </Link>

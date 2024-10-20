@@ -3,42 +3,37 @@ import { GiBookshelf, GiEarthAmerica, GiAbacus, GiMoneyStack, GiHealthIncrease, 
 
 const testimonials = [
   {
-    name: 'Sophia Davis',
-    position: 'Business Owner at Tech Innovations',
-    message: 'Hashsync team developed a custom website for us, and the results have been phenomenal! Their attention to detail and commitment to delivering high-quality work is unmatched.',
-    icon: GiBookshelf,
+    name: "Steve Ziskind",
+    position: "CEO at CXR",
+    text: "Hashsync delivered an outstanding mobile app for our business. Their team understood our needs perfectly and provided us with a solution that exceeded our expectations."
   },
   {
-    name: 'Oliver Brown',
-    position: 'Project Manager at E-commerce Solutions',
-    message: 'Thanks to Hashsync, our Shopify store setup was seamless. They truly know how to bring a vision to life with professional and functional designs.',
-    icon: GiMoneyStack,
+    name: "Sarah Johnson",
+    position: "Marketing Manager at Green Solutions",
+    text: "We had a great experience working with Hashsync. They were professional and responsive throughout the entire project. Our new website looks fantastic and functions flawlessly."
   },
   {
-    name: 'Isabella Wilson',
-    position: 'CTO at StartTech',
-    message: 'Our mobile app was built using Flutter, and Hashsync exceeded our expectations. The app is intuitive, fast, and perfectly matches our requirements.',
-    icon: GiAbacus,
+    name: "Fatima Ali",
+    position: "Owner of 360 Marketing PVT limited",
+    text: "I appreciate the dedication of the Hashsync team. They helped me set up my online store smoothly. Their support was invaluable, and I cannot thank them enough."
   },
   {
-    name: 'Liam Johnson',
-    position: 'Founder of Fintech Startups',
-    message: 'Hashsync cross-platform app development services helped us save time and resources while maintaining excellent performance across devices.',
-    icon: GiEarthAmerica,
+    name: "Michael Smith",
+    position: "Freelance Developer",
+    text: "Hashsync provided excellent web development services. Their attention to detail and innovative approach made my project a success. I would recommend them to anyone looking for quality work."
   },
   {
-    name: 'Mia White',
-    position: 'CEO of Creative Digital Agency',
-    message: 'We loved working with Hashsync on our web development project. They delivered an exceptional custom website, and their team was professional throughout.',
-    icon: GiHealthIncrease,
+    name: "Aisha Malik",
+    position: "Director at Softix Solutions",
+    text: "The team at Hashsync was amazing. They guided us through the entire process of creating our app, and their insights were invaluable. We are thrilled with the final product."
   },
   {
-    name: 'James Green',
-    position: 'COO at Innovative Solutions',
-    message: 'The team at Hashsync handled our complex web project with expertise and care. Their work has greatly improved our user experience and customer engagement.',
-    icon: GiCalendar,
-  },
+    name: "David Brown",
+    position: "Owner of Local Cafe",
+    text: "Working with Hashsync was a breeze. They took the time to understand my requirements and delivered a stunning website for my café. I have received many compliments from my customers."
+  }
 ];
+
 
 export default function Home() {
   return (
