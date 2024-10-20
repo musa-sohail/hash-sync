@@ -5,16 +5,16 @@ const Footer = () => {
   return (
     <footer className="bg-white text-black body-font">
       <div className="container px-5 py-24 mx-auto flex flex-col md:flex-row md:items-start justify-center">
-        <div className="w-64 flex-shrink-0 text-center md:text-left mb-10 md:mb-0">
+        <div className="w-64 flex-shrink-0 text-center mb-10 md:mb-0 mx-auto">
           <a className="flex title-font font-medium items-center justify-center md:justify-start text-black">
             <span className="text-left text-xl">Hash Sync</span>
           </a>
-          <p className="mt-2 text-sm text-gray-600">
+          <p className="mt-2 text-sm text-gray-600 text-center md:text-left">
             Empowering businesses with innovative software solutions.
           </p>
         </div>
         <div className="flex-grow flex flex-wrap md:pl-20 justify-center">
-          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4 text-center md:text-left">
             <h2 className="title-font font-medium text-gray-800 tracking-widest text-sm mb-3">Our Pages</h2>
             <nav className="list-none mb-10">
               <li>
@@ -31,7 +31,7 @@ const Footer = () => {
               </li>
             </nav>
           </div>
-          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4 text-center md:text-left">
             <h2 className="title-font font-medium text-gray-800 tracking-widest text-sm mb-3">Services</h2>
             <nav className="list-none mb-10">
               <li>
@@ -45,7 +45,7 @@ const Footer = () => {
               </li>
             </nav>
           </div>
-          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4 text-center md:text-left">
             <h2 className="title-font font-medium text-gray-800 tracking-widest text-sm mb-3">About Us</h2>
             <nav className="list-none mb-10">
               <li>
@@ -56,7 +56,7 @@ const Footer = () => {
               </li>
             </nav>
           </div>
-          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4 text-center md:text-left">
             <h2 className="title-font font-medium text-gray-800 tracking-widest text-sm mb-3">Contact Us</h2>
             <nav className="list-none mb-10">
               <li>
@@ -71,7 +71,7 @@ const Footer = () => {
       </div>
       <div className="bg-slate-50">
         <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row justify-between items-center">
-          <p className="text-gray-600 text-sm text-center sm:text-left">
+          <p className="text-gray-600 text-sm text-center">
             © 2024 HashSync
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
